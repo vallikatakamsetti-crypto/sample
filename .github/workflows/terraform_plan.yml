@@ -3,7 +3,7 @@ name: Terraform Plan
 on:
   pull_request:
     branches:
-      - main
+      - feature01
 
 permissions:
   id-token: write   # REQUIRED for OIDC
