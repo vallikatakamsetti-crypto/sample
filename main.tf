@@ -1,4 +1,5 @@
 resource "aws_iam_user" "lb" {
-  name = "valli"
+    count = 3
+  name = "valli-user${count.index}"
 }
 
