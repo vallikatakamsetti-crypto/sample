@@ -4,5 +4,5 @@ resource "aws_iam_user" "lb" {
 }
 
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "app-storage-bucket"
+  bucket = "app-storage-bucket1"
 }
