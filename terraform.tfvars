@@ -3,3 +3,4 @@ instance = {
   qa = "t2.micro"
   prod = "t2.micro"
 }
+
