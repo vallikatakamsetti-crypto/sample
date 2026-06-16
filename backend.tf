@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "storesample-tfstatefile"
-    key = "samplestate"
+    bucket = "terraform-s3b-st1"
+    key = "samplestate.tfstate"
     use_lockfile = true
     region = "us-east-1"
   }
