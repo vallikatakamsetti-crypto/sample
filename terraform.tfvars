@@ -1,6 +1,6 @@
 instance = {
-  dev = "t2.micro"
-  qa = "t2.micro"
-  prod = "t2.micro"
+  dev = "t3.micro"
+  qa = "t3.micro"
+  prod = "t3.micro"
 }
 
