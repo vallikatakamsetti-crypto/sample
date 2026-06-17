@@ -22,7 +22,7 @@ jobs:
       - name: Configure AWS Credentials (Role 1)
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::042360978040:role/gha-role1
+          role-to-assume: arn:aws:iam::042360978040:role/gha-role
           aws-region: us-east-1
 
       # 📦 Step 2: Terraform Init (uses Role 1 for backend)
